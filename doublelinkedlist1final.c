@@ -13,6 +13,7 @@ struct node *previous;
 
 
 void create(int A[],int n){
+
 struct node *last,*t;
 int i;
 first =(struct node *)malloc(sizeof(struct node));
